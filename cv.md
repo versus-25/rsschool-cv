@@ -58,7 +58,7 @@ function fizzbuzz(n) {
 - [Bootstrap](https://versus-25.github.io/lending_bootsrap/)
 - [PiedPiperCoin - HTML, CSS](https://versus-25.github.io/piedpipercoin/)
 - [UberEats restourants](https://versus-25.github.io/ubereats/)
-- [UberEats eats](https://versus-25.github.io/ubereats2/)
+- [UberEats dishes](https://versus-25.github.io/ubereats2/)
 
 ## Work experience
 
