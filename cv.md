@@ -44,3 +44,26 @@ function fizzbuzz(n) {
   return fizz_list
 }
 ```
+
+## Education
+
+- Yury Gagarin State Technical University of Saratov(Russia)
+- Javascript, Css, Html on Sololearn(mobile App).
+- [Html, Css on Stepik](https://stepik.org/course/38218/promo)
+- [JavaScript on learn.javascript.ru](https://learn.javascript.ru/)
+
+## Educational projects
+
+- [HTML Houston](https://versus-25.github.io/houston_homework/)
+- [Bootstrap](https://versus-25.github.io/lending_bootsrap/)
+- [PiedPiperCoin - HTML, CSS](https://versus-25.github.io/piedpipercoin/)
+- [UberEats restourants](https://versus-25.github.io/ubereats/)
+- [UberEats eats](https://versus-25.github.io/ubereats2/)
+
+## Work experience
+
+2017 - until now Yandex.Taxi - support technical specialist.
+
+## English language
+
+**A1**
