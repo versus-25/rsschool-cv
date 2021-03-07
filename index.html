@@ -7,34 +7,38 @@
     <link rel="stylesheet" href="style.css">
     <title>UI developer CV — Ivan Shkola</title>
   </head>
-  <body>
+  <body class="wrapper-main">
     <header>
-      <img src="img/avatar.jpg" alt="Photo not downloaded">
-      <h1>Ivan Shkola</h1>
-      <h2>About myself</h2>
-      <p>
-        Location Saratov
-        Marital status married
-        Date of birth 25th September 1992
-        English language A1
-        Objective — junior UI developer
-        I am working in Yandex.Taxi now. 
-        Our group develop in python(telegram bots, scripts, data processing), yql(sql-like syntax by Yandex). 
-        We are make and support dashes in DataLens, tools in Tracker, chatterbox etc. 
-        I need to work UI developer in english-language company.
-        My hobbies are powerlifting, bodybuilding and videogames.
-      </p>
+      <img class="avatar" src="img/avatar.jpg" alt="Ivan Shkola">
+      <article class="container-header">
+        <h1>Ivan Shkola</h1>
+        <h2>About myself</h2>
+        <ul>
+          <li><b>Location:</b> Saratov</li>
+          <li><b>Date of birth</b>: 25th September 1992</li>
+          <li><b>Marital status:</b> married</li>
+          <li><b>English language:</b> A1</li>
+          <li><b>Objective:</b> junior UI developer</li>
+        </ul>
+        <p>
+          I am working in Yandex.Taxi now. 
+          Our group develop in python(telegram bots, scripts, data processing), yql(sql-like syntax by Yandex). 
+          We are make and support dashes in DataLens, tools in Tracker, chatterbox etc. 
+          I need to work UI developer in english-language company.
+          My hobbies are powerlifting, bodybuilding and videogames.
+        </p>
+      </article>
     </header>
     <main>
-      <section>
+      <section class="grid-item-1">
         <h3>Contacts by priority</h3>
-        <ol>
-          <li>Telegram: <a href="https://t.me/ivanshkola">ivanshkola</a></li>
-          <li>Phone: +79198352627</li>
-          <li>E-mail: ivan_schkola@mail.ru</li>
-        </ol>
+        <ul>
+          <li><b>Telegram:</b> <a href="https://t.me/ivanshkola">ivanshkola</a></li>
+          <li><b>Phone:</b> +79198352627</li>
+          <li><b>E-mail:</b> ivan_schkola@mail.ru</li>
+        </ul>
       </section>
-      <section>
+      <section class="grid-item-2">
         <h3>Hardskills</h3>
         <ul>
           <li>HTML</li>
@@ -45,7 +49,7 @@
           <li>Paradigms(OOP, Fuctional programming, Procedural programming)</li>
         </ul>
       </section>
-      <section>
+      <section class="grid-item-3">
         <h3>Education</h3>
         <ul>
           <li>Yury Gagarin State Technical University of Saratov(Russia)</li>
@@ -56,29 +60,8 @@
             <a href="https://learn.javascript.ru/">JavaScript on learn.javascript.ru</a>
           </li>
         </ul>
-      <section>
-        <h3>Code example</h3>
-        <pre>
-          <code>
-            function fizzbuzz(n) {
-              fizz_list = [];
-              for (x = 1; x <= n; x++) {
-                let item = x;
-                if ((x % 15) == 0) {
-                  item = 'FizzBuzz'
-                } else if ((x % 3) == 0) {
-                  item = 'Fizz'
-                } else if ((x % 5) == 0) {
-                  item = 'Buzz'
-                }
-                fizz_list.push(item)
-              }
-              return fizz_list
-            }
-          </code>
-        </pre>
       </section>
-      <section>
+      <section class="grid-item-4">
         <h3>Educational projects</h3>
         <ul>
           <li>
@@ -97,10 +80,29 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="grid-item-5">
         <h3>Work experience</h3>
-        <p>2017 - until now Yandex.Taxi - support technical specialist.</p>
+        <p>2017 - until now<br> Yandex.Taxi - support technical specialist.</p>
       </section>
     </main>
+    <footer>
+      <a href="https://rs.school/js/">
+        <img class="footer-img" src="img/rs_school_js.svg" alt="rs_school_js">
+      </a>
+      <div class="social-links">
+        <a href="https://github.com/versus-25">
+          <img class="social-img" src="img/github.svg" alt="github">
+        </a>
+        <a href="https://t.me/ivanshkola">
+          <img class="social-img" src="img/telegram.svg" alt="telegram">
+        </a>
+        <a href="https://vk.com/fitnyan">
+          <img class="social-img" src="img/vk.svg" alt="vk">
+        </a>
+      </div>
+      <p>
+        2021
+      </p>
+    </footer>
   </body>
 </html>
