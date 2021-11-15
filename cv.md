@@ -20,6 +20,9 @@ My hobbies are powerlifting, bodybuilding and videogames.
 - JavaScript
 - HTML
 - CSS
+- SCSS
+- Javascript
+- Webpack
 - Git
 - Python
 - Sql(yql, ClickHouse)
@@ -54,6 +57,8 @@ function fizzbuzz(n) {
 
 ## Educational projects
 
+- [Photo filter](https://rolling-scopes-school.github.io/versus-25-JSFE2021Q1/photo-filter/)
+- [Virtual piano](https://rolling-scopes-school.github.io/versus-25-JSFE2021Q1/virtual-piano/)
 - [HTML Houston](https://versus-25.github.io/houston_homework/)
 - [Bootstrap](https://versus-25.github.io/lending_bootsrap/)
 - [PiedPiperCoin - HTML, CSS](https://versus-25.github.io/piedpipercoin/)
